@@ -1,4 +1,4 @@
-def setTerraformVariables() {
+def call() {
     
     env.TF_VAR_aws_region = env.aws_region
     env.TF_VAR_azs_private_subnet = env.azs_private_subnet
